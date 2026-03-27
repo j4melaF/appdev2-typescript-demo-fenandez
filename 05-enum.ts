@@ -1,14 +1,9 @@
-(() => {
-    enum Role {
-        // SuperAdmin,
-        // SuperAdmin = 1,
-        SuperAdmin = 'SuperAdmin',
-        // Teacher,
-        Teacher = 'Teacher',
-        // Student,
-        Student = 'Student',
-    }
+enum Role {
+    SuperAdmin = 'SuperAdmin',
+    Teacher = 'Teacher',
+    Student = 'Student',
+}
 
-    // let userRole: Role = 0;
-    let userRole: Role = Role.SuperAdmin;
-})
+let userRole: Role = Role.Student;
+
+console.log(userRole); 
