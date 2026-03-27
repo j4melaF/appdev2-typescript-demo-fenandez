@@ -1,3 +1,3 @@
-let userName1 = "Elmer";
-
-console.log(typeof userName1)
+"use strict";
+let userName1 = "Jamela";
+console.log(typeof userName1);
